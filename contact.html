@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--Author : Mark Curran - S00199895
+DAte : 30/01/2020
+Page : HTML5
+-->
+
+<html lang = "en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name = "description" content = "Form tutroial">
+        <meta name = "keywords" content="Gender, name, email">
+        <meta name = "author" content ="Mark Curran">
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>Forms</title>
+    </head>
+        <body id="contactbody">
+        <header>
+            
+        </header>
+        
+        <main>
+            <section>
+                <h2>Any queries or feedback please complete and submit, we will review your queries and get back
+                to you as soon as possible!</h2>
+                
+            <form action="http://year1.ccpdev.me/FormTest.php" method="get">
+                
+                <label for="first_name">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" required><br>
+                
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                
+                <label for="siteuse">What did you look on this website for? </label>
+                <input type="radio" name="siteuse" id="siteuse" value="where to fish"> Where to fish
+                <input type="radio" name="siteuse" id="siteuse" value="fishing rods"> Info on fishing rods
+                <input type="radio" name="siteuse" id="siteuse" value="fish to catch"> Fish you'll catch
+                <input type="radio" name="siteuse" id="siteuse" value="other"> Other <br>
+                <br>
+                <label for="internet">Heard of us:</label>
+                
+                <fieldset>
+                <input type="checkbox" id="internet" name="internet" value="internet" checked>Another website<br>
+                <input type="checkbox" class="marginl" id="hear" name="paper" value="paper">Newspaper<br>
+                <input type="checkbox" class="marginl" id="hear" name="friend" value="friend">Friend<br>
+                <input type="checkbox" class="marginl" id="hear" name="Add" value="Add">Others<br>
+                </fieldset><br>
+                
+                <label for="satisfaction">Did you find what you were looking for? </label>
+                <input type="radio" name="satisfaction" id="satisfaction" value="yes"> Yes
+                <input type="radio" name="satisfaction" id="satisfaction" value="no"> No (please specify in the queries below)
+                <br><br>
+                <label for="message">Query  :   </label>
+                <br>
+                
+                
+                <textarea cols="40" rows="6" id="message" name="message" placeholder="Submit your queries here. Max length is 200 words." data-maxlength="200"></textarea> <br>
+                
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+
+            </form>
+                <p style="margin-left: 138px;"> <span class="required">*</span> <em> indicates a requried field</em></p>
+            </section>
+        </main>
+            
+            <footer>
+            <br>
+            <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li > <a href="https://www.fisheriesireland.ie/">More Info</a></li>
+        </ul>
+    </nav>
+            <p>&copy; 2020 ReeledInfo.com</p>
+        </footer>
+    </body>
+</html>
