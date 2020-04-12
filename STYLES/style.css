@@ -29,18 +29,11 @@ nav ul li a {
     text-decoration : none;
 }
 
-.twitter.timeline {
-	height: 200px;
-    overflow: scroll;
-	}
-
 aside {
-    
-	height: 100%;
 	padding: 10px;
     background-color: lightblue;
     border: 5px solid forestgreen;
-    width: 19%;
+    width: 25%;
     float: right;
 	}
 
@@ -54,10 +47,25 @@ header {
     border: 1px solid blue;
 }
 
+article.scrollmenu {
+  width: 85%;
+  background-color: lightblue;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+article.scrollmenu img {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
 #secmain {
-	width: 80%;
+	width: 70%;
 	border: 1px solid forestgreen;
-	margin: 2px;
+    padding: 8px;
 }
 
 #secone {
@@ -84,17 +92,15 @@ section img {
 	display: inline;
 	}
 #para-types {
-	padding: 10px;
+    font-weight: bold;
+	padding: 5px;
 	text-align: center;
 	}
-	
-
 
 footer{
     clear: both;
     border: 1px solid aquamarine;
-    padding: 0;
-    margin: 0;
+    margin-top: 5px;
     position: relative;
     bottom: 0px;
     width: 100%;
@@ -130,7 +136,7 @@ footer p{
         float: right;
         right: 18.5%;
         left: 77.25%;
-        max-width: 30px;
+        max-width: 45px;
         width: 100%;
         font-size: 12px;
         border-color: cyan;
@@ -203,4 +209,42 @@ input [type="chcekbox"] {
     width: 8em;
     background-color: lightskyblue;
     border: 2px solid seagreen;
+}
+#map {
+    margin: 2px;
+    padding: 2px;
+    border: 5px;
+    float: left;
+}
+
+#cols {
+    margin: 5px;
+    padding: 10px;
+    column-count: 3;
+    column-gap: 15px;
+    column-rule: 1px solid forestgreen;
+}
+
+
+
+table {
+    width: 100%;
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 40px;
+}
+
+th, tr, td{
+    text-align: left;
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+}
+#locationsec {
+    
+    height: 450px;
+    border: 1px solid forestgreen;
 }
